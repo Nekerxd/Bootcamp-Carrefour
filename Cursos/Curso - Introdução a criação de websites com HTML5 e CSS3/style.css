@@ -20,7 +20,9 @@ a {
 
 .photo {
     border: 3px solid #505050;
-    border-radius: 10%;
+    border-radius: 50%;
+    max-height: 200px;
+    max-width: 200px;
 }
 .post_title {
     font-size: 16px;
@@ -42,11 +44,12 @@ a {
     font-weight: bold;
     margin: 0;
     margin-bottom: 15px;
-    text-transform: capitalize;
+    text-transform: initial;
     text-align: justify;
 }
 
 .post_img {
+
     margin-bottom: 15px;
     border-radius: 2%;
     width: 100%;
@@ -59,4 +62,9 @@ a {
 
 .contacts_list li a {
     text-decoration: none;
+}
+
+.rodape {
+    font-size: 20px;
+    text-transform: initial;
 }
